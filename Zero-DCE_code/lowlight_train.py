@@ -24,8 +24,6 @@ def weights_init(m):
 
 
 
-
-
 def train(config):
 
 	os.environ['CUDA_VISIBLE_DEVICES']='0'
